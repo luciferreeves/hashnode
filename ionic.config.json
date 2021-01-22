@@ -1,5 +1,7 @@
 {
   "name": "hashnode",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
