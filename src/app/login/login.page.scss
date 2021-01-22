@@ -1,0 +1,35 @@
+.loginText {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 0px 20px;
+    
+    h1 {
+        font-weight: 700;
+        line-height: 1.3em;
+        margin-bottom: 10vh;
+    }
+
+    ion-item {
+        ion-input {
+            font-family: 'Montserrat', sans-serif !important;
+            font-size: 1.2em !important;
+        }
+
+        ion-label {
+            font-family: 'Montserrat', sans-serif !important;
+            font-size: 1.2em !important;
+        }
+    }
+
+    ion-button {
+        margin: 10vh 0px 0px 50%;
+        display: inline-block;
+        transform: translateX(-50%);
+        font-size: 1.2em;
+        width: 50%;
+    }
+}
